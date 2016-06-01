@@ -1,0 +1,30 @@
+Installing trytontasks
+======================
+
+Prerequisites
+-------------
+
+ * Python 2.7 or later (http://www.python.org/)
+ * invoke (https://pypi.python.org/pypi/invoke/)
+ * See requeriments.txt
+
+Install User DOC:
+
+ * pip install hg+https://bitbucket.org/trytonspain/trytontasks-userdoc
+
+Install Gal:
+
+ * pip install hg+https://bitbucket.org/trytonspain/trytontasks-gal
+
+Install Tests:
+
+ * pip install hg+https://bitbucket.org/trytonspain/trytontasks-tests
+
+....
+
+Installation
+------------
+
+Once you've downloaded and unpacked the trytond_esale source release:
+
+    invoke -l

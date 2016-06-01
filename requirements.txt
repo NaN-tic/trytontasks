@@ -1,0 +1,9 @@
+invoke>=0.12.0
+hg+https://bitbucket.org/trytonspain/trytontasks-modules
+hg+https://bitbucket.org/trytonspain/trytontasks-scm
+hg+https://bitbucket.org/trytonspain/trytontasks-sao
+psycopg2>=2.5.0
+hgapi
+blessings
+psycopg2>=2.5.0
+python-sql>=0.8
