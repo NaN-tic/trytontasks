@@ -5,6 +5,7 @@ from invoke import Collection
 # import here your tryton tasks projects
 import trytontasks_modules
 import trytontasks_sao
+from .bootstrap import *
 
 # proteus tasks
 try:
@@ -34,3 +35,4 @@ if userdoc:
     ns.add_collection(Collection.from_module(trytontasks_userdoc, name='doc'))
 if tests:
     ns.add_collection(Collection.from_module(trytontasks_tests, name='tests'))
+ns.add_collection(Collection.from_module(bootstrap, name='nan40'))
